@@ -1,4 +1,4 @@
-baseurl = "http://www.aczcarpentry.co.uk/"
+baseurl = "https://www.aczcarpentry.co.uk/"
 languageCode = "en-gb"
 title = "ACZ Carpentry"
 theme = "hugo-strata-theme"
