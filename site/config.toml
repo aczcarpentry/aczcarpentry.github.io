@@ -50,7 +50,7 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "I'm a tallented and passionite carpenter with an eye for excellence."
+		title = "I'm a tallented and passionate carpenter with an eye for excellence."
 		content = "Have a look at previous jobs I've completed and use the form at the end of the page to get in contact with me"
 
 
