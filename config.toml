@@ -1,0 +1,160 @@
+baseurl = "http://www.aczcarpentry.co.uk/"
+languageCode = "en-gb"
+title = "ACZ Carpentry"
+theme = "hugo-strata-theme"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Alec Ciechanowicz"
+	description = "Guildford carpenter with great rates for excellent work"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+	[params.recentposts]
+	    hide = true
+	[params.rss]
+	    hide = true
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "logo.png"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "Carpentry & Handyman Service"
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = ""
+		dribbble = ""
+		facebook = "https://www.facebook.com/ACZcarpentry/"
+		googleplus = ""
+		flickr = ""
+		linkedin = ""
+
+		copyright = [
+			"&copy; Alec Ciechanowicz"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "I'm a tallented and passionite carpenter with an eye for excellence."
+		content = "Have a look at previous jobs I've completed and use the form at the end of the page to get in contact with me"
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Some of my recent work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/canvas-holder.jpg"
+			thumb = "thumbs/canvas-holder_thumb.jpg"
+#			thumb = "thumbs/02.jpg"
+			title = "Canvas Storage."
+			description = ""
+
+        [[params.portfolio.gallery]]
+            image = "portfolio/shed.jpg"
+            thumb = "thumbs/shed_thumb.jpg"
+#			thumb = "thumbs/06.jpg"
+            title = "Wood Shed."
+            description = "Storage to keep logs dry all year round."
+
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/kitchen.jpg"
+			thumb = "thumbs/kitchen_thumb.jpg"
+#			thumb = "thumbs/04.jpg"
+			title = "Kitchen"
+			description = "Fully fitted kitchen"
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/painting-rails.jpg"
+			thumb = "thumbs/painting-rails_thumb.jpg"
+#			thumb = "thumbs/05.jpg"
+			title = "Painting rail"
+			description = "Thin shelves for displaying canvases on."
+
+
+		[[params.portfolio.gallery]]
+            image = "portfolio/shoe-rack.jpg"
+            thumb = "thumbs/shoe-rack_thumb.jpg"
+            #			thumb = "thumbs/06.jpg"
+            title = "Shoe Rack."
+            description = ""
+
+        [[params.portfolio.gallery]]
+        			image = "portfolio/bar.jpg"
+        			thumb = "thumbs/bar_thumb.jpg"
+        #			thumb = "thumbs/01.jpg"
+        			title = "Bar."
+        			description = ""
+
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/hay-bales.jpg"
+			thumb = "thumbs/hay-bales_thumb.jpg"
+#			thumb = "thumbs/03.jpg"
+			title = "Hay Bales."
+			description = ""
+
+
+	[params.contact]
+		hide  = false
+		title = "Get A Quote"
+		content = "Send me an email with details of the job you need and I'll get back to with a price or questions if I require clarrifications."
+
+#		address = [
+#			"1234 Somewhere Rd.",
+#			"Nashville, TN 00000",
+#			"United States"
+#		]
+		phone = "+44 (0) 7900 115 211"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "jobs@aczcarpentry.co.uk"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+#[[menu.main]]
+#	name = "Home"
+#	url  = "/"
+#	weight = 0
+
+#[[menu.main]]
+#	name = "Blog"
+#	url  = "post/"
+#	weight = 10
